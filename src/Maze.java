@@ -41,6 +41,7 @@ public class Maze {
     public void printMap() {
         printMap(myMap);
     }
+    public void printSolution() {printMap(solution);}
 
     private void printMap(char[][] map) {
         for (int i = 0; i < 20; i++) {
